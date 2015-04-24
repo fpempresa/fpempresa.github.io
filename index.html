@@ -1,4 +1,77 @@
-<html><head><meta http-equiv="refresh" content="0; url=./site/index.html#/"></head><body>
+<!DOCTYPE html>
+<html lang="es" ng-app="app" ng-strict-di>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="II Congreso Nacional de Formación Profesional">
+        <meta name="author" content="fpempresa">
+        <link rel="shortcut icon" href="">
+
+        <title>II Congreso Nacional de Formación Profesional</title>       
+
+        <link href="./lib/bootstrap/css/bootstrap.css"                 rel="stylesheet" type="text/css" />
+        <link href="./lib/fontawesome/css/font-awesome.css"            rel="stylesheet" type="text/css" />
+
+        <link href="./css/site/site.css"                               rel="stylesheet" type="text/css" />
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- build:js js/jquery.js -->
+        <script type="text/javascript" src="./lib/jquery/js/jquery.js"></script>
+        <script type="text/javascript" src="./lib/bootstrap/js/bootstrap.js"></script>
+        <!-- endbuild -->  
+
+        <!-- build:js js/angular-deps.min.js -->
+        <!-- endbuild --> 
+
+        <!-- build:js js/angular-all.min.js -->
+        <script type='text/javascript' src='./lib/angularjs/js/angular.js'></script>
+        <script type='text/javascript' src='./lib/angularjs/js/angular-locale_es-es.js'></script>
+        <script type='text/javascript' src='./lib/angular-ui-router/js/angular-ui-router.js'></script>      
+        <!-- endbuild -->  
+
+        <!-- build:js js/ix3-angular.min.js -->
+        <!-- endbuild -->        
+
+        <!-- build:js js/common.min.js -->    
+        <script type="text/javascript" src="./common/server.js"></script>
+        <script type="text/javascript" src="./common/common-module.js"></script>
+        <script type="text/javascript" src="./common/controller/gopage.js"></script>
+        
+        <script type="text/javascript" src="./common/infrastructure/getcontextpath.js"></script>
+        
+        <script type="text/javascript" src="./common/presentation/directive/currentdate.js"></script>
+           
+        <!-- endbuild -->
+      
+        
+        <!-- build:js js/site.min.js -->
+        <script type="text/javascript" src="lib/easing/js/jquery.easing.min.js"></script>
+        
+        <script type="text/javascript" src="index.js"></script>
+       
+        <script type="text/javascript" src="common/directive/clickbuttononclick.js"></script>
+        <script type="text/javascript" src="common/directive/hideonscroll.js"></script>
+        <script type="text/javascript" src="common/service/animatescroll.js"></script>
+        <script type="text/javascript" src="common/service/routescroll.js"></script>
+        
+        <script type='text/javascript' src='fragments/footer/footer.js'></script>
+        <script type='text/javascript' src='fragments/header/header.js'></script>            
+        
+        <script type="text/javascript" src="views/main/main-route.js"></script>
+        <script type="text/javascript" src="views/main/main.js"></script>        
+        <!-- endbuild -->
+
+
+    </head>
+
+    <body id="top"  ng-controller="IndexController" >   
+    <ng-include src="'fragments/header/header.html'"></ng-include>
+    <ui-view>
             <br>
             <br>
             <br>
@@ -6,12 +79,15 @@
             <br>
             <br>
             <div style="text-align: center">
-                <img width="128px" height="128px" src="img/loading.gif" alt="loading"/>
+                <img width="128px" height="128px" src="./img/loading.gif" alt="loading"/>
             </div>
             <br>
             <br>
             <br>
             <br>
             <br>
-            <br>         
-    </body></html>
+            <br>        
+    </ui-view>
+    <ng-include src="'fragments/footer/footer.html'"></ng-include> 
+</body>
+</html>
