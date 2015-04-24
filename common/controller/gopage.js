@@ -2,57 +2,42 @@
 /**
  * Servicio para ir a la página de inicio de un usuario
  */
-angular.module("common").service("goPage", ['session', '$window', '$rootScope', function(session, $window, $rootScope) {
+angular.module("common").service("goPage", ['$window', '$rootScope', function ($window, $rootScope) {
 
         function goHomeUsuario(usuario) {
-            if (usuario.tipoUsuario === "TITULADO") {
-                $window.location.href = getContextPath() + "/titulado/index.html";
-            } else if (usuario.tipoUsuario === "EMPRESA") {
-                $window.location.href = getContextPath() + "/empresa/index.html";
-            } else if (usuario.tipoUsuario === "CENTRO") {
-                $window.location.href = getContextPath() + "/centro/index.html";
-            } else if (usuario.tipoUsuario === "ADMINISTRADOR") {
-                $window.location.href = getContextPath() + "/administrador/index.html";             
-            } else {
-                goHomeApp();
-            }
+            goHomeApp();
         }
         function goHomeApp() {
-            $window.location.href = getContextPath()+"/site/index.html#/";
-        }        
-        
+            $window.location.href = getContextPath() + "/site/index.html#/";
+        }
+
 
         return {
-            homeUsuario: function(usuario) {
+            homeUsuario: function (usuario) {
                 if (usuario) {
                     goHomeUsuario(usuario);
-                }else if ($rootScope.user) {
-                    goHomeUsuario($rootScope.user); 
+                } else if ($rootScope.user) {
+                    goHomeUsuario($rootScope.user);
                 } else {
-                    session.logged().then(function(usuario) {
+                    session.logged().then(function (usuario) {
                         if (usuario) {
                             goHomeUsuario(usuario);
                         } else {
                             goHomeApp();
                         }
-                    }, function() {
+                    }, function () {
                         goHomeApp();
                     });
                 }
             },
-            homeApp:function() {
+            homeApp: function () {
                 goHomeApp();
             },
-            createAccount:function(tipoUsuario) {
-                //alert("El registro de nuevos usuarios en la bolsa de trabajo no está habilitado actualmente");
-                if (tipoUsuario) {
-                    $window.location.href = getContextPath() + "/site/index.html#/createaccount/register/"+tipoUsuario;
-                } else {
-                    $window.location.href = getContextPath() + "/site/index.html#/createaccount/init";
-                }
+            createAccount: function (tipoUsuario) {
+                goHomeApp();
             },
-            login:function() {
-                    $window.location.href = getContextPath() + "/site/index.html#/login";  
+            login: function () {
+                goHomeApp();
             }
         };
     }]);

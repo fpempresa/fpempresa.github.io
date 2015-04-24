@@ -96,6 +96,14 @@
     font-size: 22px;
   }
 }
+.section__text--size-extrahigh {
+  font-size: 25px;
+}
+@media (min-width: 767px) {
+  .section__text--size-extrahigh {
+    font-size: 27px;
+  }
+}
 .section__text--size-low {
   font-size: 12px;
 }

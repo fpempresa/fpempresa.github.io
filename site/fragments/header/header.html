@@ -17,20 +17,21 @@
                     <a href ng-click="navigateWithScroll('/','top')" fpe-click-button-on-click="buttonMenuHeader"></a>
                 </li>
                 <li>
-                    <a  href ng-click="navigateWithScroll('/','ofrecemos')" fpe-click-button-on-click="buttonMenuHeader">Que ofrecemos</a>
+                    <a  href ng-click="navigateWithScroll('/','registro')" fpe-click-button-on-click="buttonMenuRegistro">REGISTRO</a>
                 </li>
                 <li>
-                    <a  href ng-click="navigateWithScroll('/','empleo')" fpe-click-button-on-click="buttonMenuHeader">Por el empleo</a>
+                    <a  href ng-click="navigateWithScroll('/','donde')" fpe-click-button-on-click="buttonMenuDonde">DONDE</a>
                 </li>
                 <li>
-                    <a  href ng-click="navigateWithScroll('/','porque')" fpe-click-button-on-click="buttonMenuHeader">Por qu&eacute;</a>
+                    <a  href ng-click="navigateWithScroll('/','agenda')" fpe-click-button-on-click="buttonMenuAgenda">AGENDA</a>
                 </li>
                 <li>
-                    <a ng-if="!user" href="#/login" fpe-click-button-on-click="buttonMenuHeader">Entrar</a>
-                    <a ng-if="user"  href ng-click="homeUsuario()" fpe-click-button-on-click="buttonMenuHeader">{{user.name}}</a>
+                    <a  href ng-click="navigateWithScroll('/','objetivos')" fpe-click-button-on-click="buttonMenuObjetivos">OBJETIVOS</a>
+                </li>                
+                <li>
+                    <a  href ng-click="navigateWithScroll('/','patrocinadores')" fpe-click-button-on-click="buttonMenuPatrocinadores">PATROCINADORES</a>
                 </li>
             </ul>
         </div>
-
     </div>
 </nav>
