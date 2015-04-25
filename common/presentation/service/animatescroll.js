@@ -51,6 +51,6 @@ function AnimateScroll($timeout) {
 AnimateScroll.$inject=['$timeout'];
 
 
-app.factory("animateScroll", AnimateScroll);
+angular.module("common").factory("animateScroll", AnimateScroll);
 
 

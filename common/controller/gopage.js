@@ -4,31 +4,14 @@
  */
 angular.module("common").service("goPage", ['$window', '$rootScope', function ($window, $rootScope) {
 
-        function goHomeUsuario(usuario) {
-            goHomeApp();
-        }
         function goHomeApp() {
-            $window.location.href = getContextPath() + "/site/index.html#/";
+            $window.location.href = getContextPath() + "/index.html#/";
         }
 
 
         return {
             homeUsuario: function (usuario) {
-                if (usuario) {
-                    goHomeUsuario(usuario);
-                } else if ($rootScope.user) {
-                    goHomeUsuario($rootScope.user);
-                } else {
-                    session.logged().then(function (usuario) {
-                        if (usuario) {
-                            goHomeUsuario(usuario);
-                        } else {
-                            goHomeApp();
-                        }
-                    }, function () {
-                        goHomeApp();
-                    });
-                }
+                goHomeApp();
             },
             homeApp: function () {
                 goHomeApp();

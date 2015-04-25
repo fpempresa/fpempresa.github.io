@@ -74,4 +74,4 @@ function RouteScroll($rootScope,$location, $anchorScroll, animateScroll) {
 }
 
 
-app.factory("routeScroll", RouteScroll);
+angular.module("common").factory("routeScroll", RouteScroll);
