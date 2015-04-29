@@ -42,29 +42,22 @@
         <script type="text/javascript" src="./common/server.js"></script>
         <script type="text/javascript" src="./common/common-module.js"></script>
         <script type="text/javascript" src="./common/controller/gopage.js"></script>
-        
+
         <script type="text/javascript" src="./common/infrastructure/getcontextpath.js"></script>
-        
+
         <script type="text/javascript" src="./common/presentation/directive/currentdate.js"></script>
         <script type="text/javascript" src="./common/presentation/directive/clickbuttononclick.js"></script>
         <script type="text/javascript" src="./common/presentation/directive/hideonscroll.js"></script>
         <script type="text/javascript" src="./common/presentation/service/animatescroll.js"></script>
         <script type="text/javascript" src="./common/presentation/service/routescroll.js"></script>
         <!-- endbuild -->
-      
-        
+
+
         <!-- build:js js/site.min.js -->
 
-        
+
         <script type="text/javascript" src="index.js"></script>
-       
 
-
-        
-        <script type='text/javascript' src='fragments/footer/footer.js'></script>
-        <script type='text/javascript' src='fragments/header/header.js'></script>            
-        
-        <script type="text/javascript" src="views/main/main-route.js"></script>
         <script type="text/javascript" src="views/main/main.js"></script>        
         <!-- endbuild -->
 
@@ -72,24 +65,24 @@
     </head>
 
     <body id="top"  ng-controller="IndexController" style="background-color: #F6F8F7" >   
-    <ng-include src="'fragments/header/header.html'"></ng-include>
-    <ui-view>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div style="text-align: center">
-                <img width="128px" height="128px" src="./img/loading.gif" alt="loading"/>
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>        
-    </ui-view>
-    <ng-include src="'fragments/footer/footer.html'"></ng-include> 
+
+<ui-view>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="text-align: center">
+        <img width="128px" height="128px" src="./img/loading.gif" alt="loading"/>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>        
+</ui-view>
+
 </body>
 </html>
