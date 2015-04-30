@@ -36,7 +36,7 @@
         }]);
 
     function showHide(iElement, config, currentPath) {
-        if (currentPath === config.applyInPath) {
+        if ((currentPath === config.applyInPath) || (typeof(config.applyInPath)==="undefined")) {
             var offset = iElement.offset();
             if (offset.top > config.threshold) {
                 iElement.addClass(config.cssClassName);
