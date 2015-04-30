@@ -602,4 +602,8 @@ html {
   padding-left: 15px;
   padding-right: 15px;
 }
+.intro {
+  background: #f6f8f7 url(../../img/site/papel.jpg) no-repeat scroll center center;
+  background-size: cover;
+}
 /*# sourceMappingURL=site.css.map */
