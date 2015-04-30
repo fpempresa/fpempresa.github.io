@@ -2,7 +2,7 @@
 
 (function () {
 
-    angular.module("common").directive("fpeHideOnScroll", ['$window', '$rootScope', '$location', function ($window, $rootScope, $location) {
+    app.directive("fpeHideOnScroll", ['$window', '$rootScope', '$location', function ($window, $rootScope, $location) {
             var directiveDefinitionObject = {
                 restrict:"A",
                 compile: function (tElement, tAttrs) {

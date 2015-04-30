@@ -8,7 +8,7 @@
 //Se cierre el menu superior cuando está en un movil.
 //Es decir al pulsar sobre una opción se cierra el propio menu
 //TODO: En vez de poner la directiva en cada link <a> sería mejor ponerlo e¡solo en el botón y el él, busque los elementos <a>
-angular.module("common").directive("fpeClickButtonOnClick", ['$window', '$rootScope', '$location', function ($window, $rootScope, $location) {
+app.directive("fpeClickButtonOnClick", ['$window', '$rootScope', '$location', function ($window, $rootScope, $location) {
         var directiveDefinitionObject = {
             restrict:"A",
             compile: function (tElement, tAttrs) {
