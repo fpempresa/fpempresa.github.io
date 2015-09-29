@@ -66,9 +66,10 @@
 
 
     &__main-title {
-        font-size: 30px;
+        @font-size:40;
+        font-size: @font-size*1px;
         @media(min-width:767px) {
-            font-size: 40px;
+            font-size: @font-size*1.25px;
         }   
         font-weight: bold;  
 
@@ -78,31 +79,34 @@
 
     }
 
+    
+    
     &__text {
+        @font-size:25;
         padding-top: 20px;
-        font-size: 15px;
+        font-size: @font-size*1px;
         @media(min-width:767px) {
-            font-size: 17px;
+            font-size: @font-size*1.25px;
         } 
         
         &--size-high {
-            font-size: 20px;
+            font-size: @font-size*1.25px;
             @media(min-width:767px) {
-                font-size: 22px;
+                font-size: @font-size*1.5px;
             }      
         }
         
         &--size-extrahigh {
-            font-size: 25px;
+            font-size: @font-size*1.5px;
             @media(min-width:767px) {
-                font-size: 27px;
+                font-size: @font-size*1.75pxpx;
             }      
         }     
         
         &--size-low {
-            font-size: 12px;
+            font-size: @font-size*0.75px;
             @media(min-width:767px) {
-                font-size: 14px;
+                font-size: @font-size*0.75px;
             }      
         }        
         
