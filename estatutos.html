@@ -1,62 +1,6 @@
-<!DOCTYPE html>
-<html lang="es" ng-app="app" ng-strict-di>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="II Congreso Nacional de Formación Profesional">
-        <meta name="author" content="fpempresa">
-        <link rel="shortcut icon" href="">
-
-        <title>Asociaci&oacute;n de centros de FP "FPempresa"</title>       
-
-        <link href="./lib/bootstrap/css/bootstrap.css"                 rel="stylesheet" type="text/css" />
-        <link href="./lib/fontawesome/css/font-awesome.css"            rel="stylesheet" type="text/css" />
-        <link href="./css/site/site.css"                               rel="stylesheet" type="text/css" />
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
-
-
-
-
-    </head>
-
-    <body id="top"  ng-controller="IndexController" style="background-color: #F6F8F7" >   
-
-        <nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation"  >
-            <div class="container-fluid" >
-                <div class="navbar-header">
-                    <button id="buttonMenuHeader" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand" href="./index.html">
-                        <img src="./img/logo/logo.png"  alt="logo"  >&nbsp;
-                    </a>
-                </div>
-
-
-                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                    <ul class="nav navbar-nav">
-
-                        <li class="hidden">
-                            <a href ng-click="animateScroll.toElement('top')" fpe-click-button-on-click="buttonMenuHeader"></a>
-                        </li>
-                        <li>
-                            <a  href="./asociacion.html" fpe-click-button-on-click="buttonMenuHeader">ASOCIACI&Oacute;N</a>
-                        </li>
-                        <li>
-                            <a  href="http://www.fpempresa.net" fpe-click-button-on-click="buttonMenuHeader">BOLSA DE TRABAJO</a>
-                        </li>
-                        <li>
-                            <a  href="./contacto.html" fpe-click-button-on-click="buttonMenuHeader">CONTACTO</a>
-                        </li>            
-                    </ul>
-                </div>
-            </div>
-        </nav>
+---
+layout : default
+---
 
 <div class="container fpempresa-container" style="padding-top:100px;padding-bottom:20px;">
     <div class="row" >
@@ -64,360 +8,330 @@
             <div>
 
                 <h1>E S T A T U T O S de la Asociaci&oacute;n de Centros de Formaci&oacute;n Profesional "FPempresa"</h1>
-<br>
-<br>
-<span class="estatutos__titulo">I. De la Asociaci&oacute;n en General</span><br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 1. Denominaci&oacute;n y &aacute;mbito territorial</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span> &ndash; Con la denominaci&oacute;n de Asociaci&oacute;n de Centros de Formaci&oacute;n Profesional  utilizando como marca &ldquo;Fpempresa&rdquo;, se constituye una entidad al amparo de la Ley Org&aacute;nica  1/2002, de 22 de marzo, reguladora del Derecho de Asociaci&oacute;n y normas complementarias, con capacidad jur&iacute;dica y plena capacidad de obrar, careciendo de &aacute;nimo de lucro.<br>
-<span class="estatutos__apartado">Dos</span>- La presenta asociaci&oacute;n se constituye de acuerdo con uno de los objetivos espec&iacute;ficos del proyecto de innovaci&oacute;n aplicada y transferencia del conocimiento en la formaci&oacute;n profesional del sistema educativo Fpempresa, que fue seleccionado en la resoluci&oacute;n de 21 de octubre de 2011 de la Secretar&iacute;a de Estado de Educaci&oacute;n y Formaci&oacute;n Profesional y que integra a 89 centros que imparten Formaci&oacute;n Profesional en Espa&ntilde;a y que se consideran socios natos de la Asociaci&oacute;n Fpempresa por ser este uno de los objetivos fundamentales planteados en este proyecto.<br>
-<span class="estatutos__apartado">Tres</span> &ndash; El &aacute;mbito territorial en el que va a realizar principalmente sus actividades es todo el territorio nacional.<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 2 Fines y actividades</span><br>
-<br>
-La Asociaci&oacute;n tiene los siguientes fines y actividades:<br>
-<br>
-a) Gestionar y promocionar el portal www.fpempresa.net como lugar de encuentro entre los centros que imparten formaci&oacute;n profesional y las empresas.<br>
-b) Desarrollar actuaciones que faciliten las relaciones entre los centros que imparten formaci&oacute;n profesional y el mundo empresarial.<br>
-c) Apoyar a los centros que imparten formaci&oacute;n profesional en su relaci&oacute;n con su entorno empresarial.<br>
-d) Realizar actuaciones de promoci&oacute;n de la formaci&oacute;n profesional principalmente en colaboraci&oacute;n con el mundo empresarial<br>
-e) Fomentar la colaboraci&oacute;n entre los Centros que forman parte de la Asociaci&oacute;n<br>
-f) Proveer servicios diversos a los Centros que forman parte de la Asociaci&oacute;n.<br>
-g) Proveer servicios diversos al tejido social y empresarial dentro del &aacute;mbito de la formaci&oacute;n profesional.<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 3. Duraci&oacute;n y domicilio social</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span> -  La duraci&oacute;n de la Asociaci&oacute;n es indefinida.<br>
-<br>
-<span class="estatutos__apartado">Dos</span> &ndash; El domicilio social se fija en:<br>
-	IES Puerta Bonita<br>
-Calle Padre Amig&oacute;, 5<br>
-	28025 - Madrid<br>
-	<br>
-<span class="estatutos__apartado">Tres</span> &ndash; El cambio de domicilio requerir&aacute; una modificaci&oacute;n de los estatutos y el acuerdo por la Asamblea General convocada espec&iacute;ficamente para tal objetivo.<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 4. Naturaleza de la Asociaci&oacute;n</span><br>
-<br>
-La Asociaci&oacute;n tendr&aacute; personalidad jur&iacute;dica propia, independiente de los socios que la constituyen, gozando de la misma desde el momento de su constituci&oacute;n, teniendo por s&iacute; la capacidad legal precisa para el cumplimiento de sus fines, en los t&eacute;rminos definidos en los presentes Estatutos.<br>
-<br>
-<span class="estatutos__titulo">II. &Oacute;rganos de Gobierno</span><br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 5. &Oacute;rganos de Gobierno</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span> - El gobierno de la Asociaci&oacute;n estar&aacute; a cargo de los siguientes &oacute;rganos colegiados:<br>
-<br>
-a) Asamblea General<br>
-b) Junta Directiva<br>
-<br>
-<span class="estatutos__apartado">Dos</span> -  Sin perjuicio de lo anterior, la Asociaci&oacute;n podr&aacute; crear todos aquellos &oacute;rganos internos que considere necesarios para el buen funcionamiento de la misma.<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 6. La Asamblea General</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span> &ndash; La Asamblea General, integrada por todos los asociados, es el &oacute;rgano supremo de expresi&oacute;n de la voluntad de &eacute;stos. Se constituir&aacute; con los representantes que designen los centros Asociados, con los socios fundadores y con los socios de honor. Cada centro asociado contar&aacute; con un representante y por consiguiente con un voto por centro.<br>
-<br>
-<span class="estatutos__apartado">Dos</span> &ndash; Sus decisiones vincular&aacute;n a todos los asociados, incluso a los disidentes y ausentes.<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 7. Facultades de la Asamblea General</span><br>
-<br>
-Todos los asuntos propios de la Asociaci&oacute;n pueden ser debatidos en la Asamblea General, cuyo acuerdo ser&aacute; preceptivo en todo caso para lo siguiente:<br>
-<br>
-a) El examen y la aprobaci&oacute;n de la Memoria de actividades y de las cuentas anuales del ejercicio anterior<br>
-b) El examen y la aprobaci&oacute;n del Plan de gesti&oacute;n y del presupuesto del ejercicio <br>
-c) La aprobaci&oacute;n y modificaci&oacute;n de Estatutos<br>
-d) La disoluci&oacute;n de la asociaci&oacute;n<br>
-e) La elecci&oacute;n y el cese del presidente, del vicepresidente, del secretario, del tesorero y de los dem&aacute;s miembros de la Junta Directiva<br>
-f) Los actos de federaci&oacute;n y confederaci&oacute;n con otras asociaciones o el abandono de alguna de ellas<br>
-g) La aprobaci&oacute;n de la disposici&oacute;n o enajenaci&oacute;n de bienes inmuebles<br>
-h) La adopci&oacute;n del acuerdo de separaci&oacute;n definitiva de las Centros Asociados.<br>
-i) La fusi&oacute;n de la asociaci&oacute;n con otra asociaci&oacute;n o asociaciones afines<br>
-j) Resolver los recursos contra las resoluciones de la Junta Directiva en materia de baja y admisi&oacute;n de socios.<br>
-k) Cualquier otro asunto sometido a su consideraci&oacute;n<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 8. Convocatoria de la Asamblea</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span>- La Asamblea General Ordinaria ser&aacute; convocada por la Junta Directiva una vez al a&ntilde;o, dentro de los seis primeros meses, para examinar y aprobar si procede la Memoria de actividades y las cuentas del ejercicio anterior, as&iacute; como el Plan de gesti&oacute;n y el presupuesto del ejercicio.<br>
-<br>
-No obstante, podr&aacute;n incluirse en el Orden del d&iacute;a de la Asamblea General Ordinaria toda clase de asuntos relacionados con el funcionamiento y las actividades de la Asociaci&oacute;n.<br>
-<br>
-<span class="estatutos__apartado">Dos</span>- La Asamblea General Extraordinaria podr&aacute; ser convocada por la Junta Directiva  de forma excepcional  cuantas veces lo pidan las dos terceras partes de los socios de derecho, indicando los motivos y fines de la misma, en todo caso para conocer y decidir sobre las siguientes materias:<br>
-a) Modificaci&oacute;n estatutaria<br>
-b) Disoluci&oacute;n de la Asociaci&oacute;n<br>
-<br>
-<span class="estatutos__apartado">Tres</span>- La convocatoria de la Asamblea General Ordinaria o Extraordinaria se har&aacute; por escrito con una antelaci&oacute;n de al menos quince  d&iacute;as. La convocatoria expresar&aacute; fecha, hora, lugar y Orden del D&iacute;a, as&iacute; como la fecha, hora y lugar de reuni&oacute;n en segunda convocatoria.<br>
-<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 9. Funcionamiento de la Asamblea General</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span> &ndash; La Asamblea General se celebrar&aacute; en el lugar que determine la Junta Directiva en la convocatoria de la misma.<br>
-<br>
-<span class="estatutos__apartado">Dos</span> &ndash; Para que la Asamblea General Ordinaria o Extraordinaria puedan tomar acuerdos, ser&aacute; necesaria la asistencia, como m&iacute;nimo en primera convocatoria, de la mitad m&aacute;s uno de los asociados. Si no se logra este n&uacute;mero se celebrar&aacute; en segunda convocatoria, y podr&aacute;n adoptarse acuerdos, cualquiera que sea el n&uacute;mero de asistentes, salvo en aquellas materias en que sea necesaria una mayor&iacute;a cualificada.<br>
-<br>
-<span class="estatutos__apartado">Tres</span> &ndash; La Asamblea General ser&aacute; presidida por el Presidente de la Asociaci&oacute;n y, en su defecto, por el Vicepresidente, actuando de Secretario el que lo sea de la Junta Directiva.<br>
-<br>
-En defecto de los anteriores, ser&aacute; presidida por la persona que designe la Asamblea General al efecto. <br>
-<br>
-El Secretario dirigir&aacute; la discusi&oacute;n y cuidar&aacute; bajo su responsabilidad que no se produzcan desviaciones o se sometan a la decisi&oacute;n de la Asamblea General cuestiones no incluidas en el Orden del d&iacute;a.<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 10. Mayor&iacute;a</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span>- Los acuerdos de la Asamblea General ser&aacute;n adoptados por mitad m&aacute;s uno de los votos presentes y representados, es decir, por mayor&iacute;a absoluta, salvo que la legislaci&oacute;n vigente o estos Estatutos establezcan una mayor&iacute;a cualificada.<br>
-<br>
-<span class="estatutos__apartado">Dos</span>- Ser&aacute; necesaria la mayor&iacute;a cualificada de dos tercios de los votos presentes y representados para la adopci&oacute;n de los siguientes acuerdos:<br>
-a) La aprobaci&oacute;n y modificaci&oacute;n de estatutos.<br>
-b) La disoluci&oacute;n de la asociaci&oacute;n.<br>
-c) La elecci&oacute;n y cese anticipado del presidente y de los dem&aacute;s miembros de la Junta Directiva, as&iacute; como su supervisi&oacute;n y control.<br>
-d) Los actos de federaci&oacute;n y confederaci&oacute;n con otras asociaciones o el abandono de alguna de ellas<br>
-e) La aprobaci&oacute;n de la disposici&oacute;n o enajenaci&oacute;n de bienes inmuebles<br>
-f) La adopci&oacute;n del acuerdo de separaci&oacute;n definitiva de los socios.<br>
-g) La fusi&oacute;n de la asociaci&oacute;n con otras asociaci&oacute;n o asociaciones afines<br>
-h) Otros supuestos que pudiera exigir la legislaci&oacute;n vigente<br>
-<br>
-<span class="estatutos__apartado">Tres</span>- El Secretario levantar&aacute; acta de cada reuni&oacute;n en la que har&aacute; constar la fecha de la reuni&oacute;n, los asistentes a la misma, los asuntos tratados y los acuerdos adoptados.<br>
-<br>
-El acta podr&aacute; ser aprobada por la propia Asamblea General a continuaci&oacute;n de haberse celebrado esta, o en su defecto, en la sesi&oacute;n siguiente.<br>
-<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 11. La Junta Directiva</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span> &ndash; La Junta Directiva es el &oacute;rgano de gobierno al que corresponde la direcci&oacute;n y gesti&oacute;n ordinaria de la Asociaci&oacute;n, de acuerdo con las directrices de la Asamblea General y bajo su supervisi&oacute;n y control. Tiene para ello las facultades que se especifican a continuaci&oacute;n:<br>
-<br>
-a) Representar a la Asociaci&oacute;n ante todo tipo de organismos p&uacute;blicos y privados<br>
-b) Decidir la celebraci&oacute;n de reuniones de la Asamblea General, confeccionando el Orden del d&iacute;a de las reuniones de la Asamblea y ejecutar sus acuerdos<br>
-c) Presentar anualmente a la Asamblea General Ordinaria la Memoria de actividades, las Cuentas del ejercicio, el Plan de Gesti&oacute;n y el presupuesto para su aprobaci&oacute;n<br>
-d) Contratar al personal que en su caso fuera necesario para el eficaz cumplimiento de los fines y actividades de la Asociaci&oacute;n<br>
-e) Realizar las gestiones necesarias para el cumplimiento de los fines y actividades de la Asociaci&oacute;n<br>
-f) Ejecutar todas aquellas cuestiones que le delegue la Asamblea General<br>
-g) Adoptar acuerdos relacionados con la interposici&oacute;n de toda clase de recursos y acciones ante cualquier organismo o jurisdicci&oacute;n, y otorgar los poderes necesarios para ello.<br>
-h) Ejercer la potestad disciplinaria.<br>
-<br>
-<span class="estatutos__apartado">Dos</span> &ndash;Los miembros de la Junta Directiva ser&aacute;n elegidos por la Asamblea General y estar&aacute; formada por un m&aacute;ximo de quince  personas. La Junta Directiva estar&aacute; formada por el Presidente, Vicepresidente, Tesorero, Secretario y vocales.<br>
-<br>
-<br>
-<span class="estatutos__apartado">Tres</span> - Los cargos de Presidente, Vicepresidente, Tesorero, Secretario y vocales  tendr&aacute;n una duraci&oacute;n de 3 a&ntilde;os, pudiendo producirse la relecci&oacute;n. Los miembros de la Junta Directiva que hubieran agotado el plazo para el cual fueron elegidos continuar&aacute;n ostentando sus cargos hasta el momento en que se produzca la aceptaci&oacute;n de los que les sustituyan.<br>
-<br>
-<span class="estatutos__apartado">Cuatro</span> - Las causas de cese de los cargos ser&aacute;n las siguientes:<br>
-a) renuncia voluntaria comunicada por escrito a la Junta Directiva<br>
-b) el incumplimiento grave de sus responsabilidades<br>
-c) la actuaci&oacute;n dolosa contraria a los intereses de la asociaci&oacute;n o a los fines y actividades de la misma<br>
-<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 12. Desempe&ntilde;o gratuito de los cargos</span><br>
-<br>
-Los miembros de la Junta Directiva desempe&ntilde;ar&aacute;n sus cargos gratuitamente. No obstante, la Asamblea General podr&aacute; establecer el abono de dietas y gastos justificables para los miembros de los &oacute;rganos de gobierno.<br>
-Esta gratuidad no se extiende a las relaciones de tipo laboral o civil que puedan establecerse con determinadas personas para la prestaci&oacute;n de servicios profesionales o en condiciones de especial dedicaci&oacute;n.<br>
-<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 13. Funcionamiento de la Junta Directiva</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span>.-La Junta Directiva se reunir&aacute;, como m&iacute;nimo, una vez al trimestre, o en convocatoria extraordinaria cuando lo estime conveniente el Presidente o un tercio de los miembros de la misma.<br>
-<br>
-<span class="estatutos__apartado">Dos</span>.- Las reuniones de la Junta Directiva las convocar&aacute; el Presidente por escrito con una antelaci&oacute;n m&iacute;nima de siete d&iacute;as naturales, y en casos extraordinarios con 48 horas de antelaci&oacute;n. La Junta Directiva quedar&aacute; v&aacute;lidamente constituida cuando asistan a la reuni&oacute;n la mitad m&aacute;s uno de los miembros. La asistencia ser&aacute; personal, no cabiendo la representaci&oacute;n, y los acuerdos se adoptar&aacute;n por mayor&iacute;a simple de los miembros presentes. El Presidente dirigir&aacute; las deliberaciones y su voto de calidad dirimir&aacute; en caso de empate.<br>
-<br>
-<span class="estatutos__apartado">Tres</span>.- Podr&aacute; existir una Comisi&oacute;n Permanente con car&aacute;cter de Delegada de la Junta Directiva y con la funci&oacute;n de ejercer coordinadamente el Gobierno de la Asociaci&oacute;n.<br>
-<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 14. El Presidente</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span> &ndash; El Presidente ostenta la representaci&oacute;n legal de la Asociaci&oacute;n y la Presidencia de los &oacute;rganos de gobierno.<br>
-<br></span>
-<span class="estatutos__apartado">Dos</span> &ndash; El Presidente, en el ejercicio de sus funciones, ejecutar&aacute; los acuerdos adoptados por la Junta Directiva y la Asamblea General.<br>
-<br>
-<span class="estatutos__apartado">Tres</span> &ndash; Corresponder&aacute;n al Presidente cuantas facultades no est&eacute;n expresamente reservadas a la Junta Directiva o a la Asamblea General y, especialmente, las siguientes:<br>
-<br>
-a) Convocar, presidir y levantar las sesiones que celebre la Junta Directiva y la Asamblea General<br>
-b) Proponer el Plan de Gesti&oacute;n de la Asociaci&oacute;n a la Junta Directiva, impulsando y dirigiendo sus tareas<br>
-c) Resolver las cuestiones que puedan surgir con car&aacute;cter urgente, dando conocimiento de ello a la Junta Directiva en la primera sesi&oacute;n que se celebre.<br>
-<br>
-<span class="estatutos__apartado">Cuatro</span> &ndash; El cargo tendr&aacute; una duraci&oacute;n de 3 a&ntilde;os, pudiendo producirse la relecci&oacute;n. Las causas de cese ser&aacute;n las previstas en el Art&iacute;culo 11 apartado Cuatro.<br>
-<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 15. El Vicepresidente</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span> - El Vicepresidente asumir&aacute; las funciones de asistir al Presidente y sustituirle en caso de imposibilidad temporal de ejercicio a su cargo. Asimismo, le corresponder&aacute;n cuantas facultades delegue en &eacute;l, expresamente, el Presidente.<br>
-<br>
-<span class="estatutos__apartado">Dos</span> &ndash;  El cargo tendr&aacute; una duraci&oacute;n de 3 a&ntilde;os, pudiendo producirse la relecci&oacute;n. Las causas de cese ser&aacute;n las previstas en el Art&iacute;culo 11 apartado Cuatro.<br>
-<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 16. El Secretario</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span> - El Secretario se encargar&aacute; de recibir y tramitar las solicitudes de ingreso, llevar el Libro-Registro de Socios, y atender a la custodia y redacci&oacute;n del libro de Actas.<br>
-<br>
-Igualmente, velar&aacute; por el cumplimiento de las disposiciones legales vigentes en materia de Asociaciones, custodiando la documentaci&oacute;n oficial de la Entidad, certificando el contenido de los libros y archivos sociales, y haciendo que se cursen a la autoridad competente las comunicaciones preceptivas sobre designaci&oacute;n de Juntas Directivas y cambios de domicilio social.<br>
-<br>
-<span class="estatutos__apartado">Dos</span> &ndash; El cargo tendr&aacute; una duraci&oacute;n de 3 a&ntilde;os, pudiendo producirse la relecci&oacute;n. Las causas de cese ser&aacute;n las previstas en el Art&iacute;culo 11 apartado Cuatro.<br>
-<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 17. El Tesorero</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span> - El Tesorero dar&aacute; a conocer los ingresos y pagos efectuados, formalizar&aacute; el presupuesto anual, as&iacute; como el estado de cuentas del a&ntilde;o anterior que deben ser presentados a la Junta Directiva para que &eacute;sta, a su vez, los someta a la aprobaci&oacute;n de la Asamblea General.<br>
-<br>
-<span class="estatutos__apartado">Dos</span> &ndash; El cargo tendr&aacute; una duraci&oacute;n de 3 a&ntilde;os, pudiendo producirse la relecci&oacute;n. Las causas de cese ser&aacute;n las previstas en el Art&iacute;culo 11 apartado Cuatro.<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 18.  Los Vocales.</span><br>
-<br>
-Los Vocales tendr&aacute;n las obligaciones propias de su cargo como miembro de la Junta Directiva y as&iacute; como las que nazcan de las delegaciones o comisiones de trabajo que la propia Junta les encomiende. <br>
-<br>
-<span class="estatutos__titulo">III. De los Asociados</span><br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 19. Clases de asociados</span><br>
-<br>
-La Asociaci&oacute;n la integrar&aacute;n tres clases de asociados:<br>
-a) Socios fundadores que ser&aacute;n aquellas personas f&iacute;sicas o jur&iacute;dicas que participen en el acto de constituci&oacute;n de la asociaci&oacute;n.<br>
-b) Socios de  n&uacute;mero, que ser&aacute;n los centros que imparten formaci&oacute;n profesional  que se encuentran inscritos en el Registro Estatal de Centros Docentes no Universitarios del Ministerio de Educaci&oacute;n, Cultura y Deporte y que ingresen despu&eacute;s de la constituci&oacute;n de la asociaci&oacute;n.<br>
-c) Socios de honor , aquellas personas f&iacute;sicas   que por su prestigio o por haber contribuido de modo relevante al desarrollo de la Formaci&oacute;n Profesional, sean invitados a formar parte de la Asociaci&oacute;n<br>
-<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 20. Requisitos para la admisi&oacute;n</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span>.- Los centros que impartan Formaci&oacute;n  Profesional que deseen formar parte de la Asociaci&oacute;n deber&aacute;n  solicitar la admisi&oacute;n mediante escrito dirigido al Presidente de la Junta Directiva. En el escrito se har&aacute; constar  el compromiso de aceptar y cumplir los estatutos as&iacute; como se designar&aacute; un representante del Centro en la Asociaci&oacute;n. <br>
-<br>
-<span class="estatutos__apartado">Dos</span>.- Las decisiones sobre la admisi&oacute;n de Centros Asociados  corresponden a la Junta Directiva, que una vez examinado el cumplimiento de los requisitos establecidos en el art&iacute;culo anterior, adoptar&aacute; el acuerdo correspondiente por mayor&iacute;a  de sus miembros.<br>
-<br>
-<span class="estatutos__apartado">Tres</span>.- En el supuesto de denegaci&oacute;n, el solicitante podr&aacute; recurrir ante la Asamblea en el plazo de quince d&iacute;as desde la fecha de comunicaci&oacute;n de la resoluci&oacute;n denegatoria. El recurso ser&aacute; resuelto en la primera Asamblea que se celebre, siendo su resoluci&oacute;n definitiva.<br>
-<br>
-<span class="estatutos__apartado">Cuatro</span>- Los socios de honor ser&aacute;n invitados a formar parte de la Asociaci&oacute;n  por la Junta Directiva.<br>
-<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 21. Derechos de los Centros Asociados</span><br>
-<br>
-Los centros Asociados tienen derecho a:<br>
-<br>
-a) Elegir y ser elegidos para los cargos de la Asociaci&oacute;n<br>
-b) Participar con voz y voto en la adopci&oacute;n de todos los acuerdos de la Asamblea General, mediante los representantes nombrados al efecto<br>
-c) Aprobar, en su caso, en la Asamblea la memoria de actividades, cuentas del ejercicio anterior y el Plan de Gesti&oacute;n y Presupuesto del ejercicio<br>
-d) Solicitar y recibir informaci&oacute;n sobre cualquier aspecto relativo a la marcha de la Asociaci&oacute;n<br>
-e) Los dem&aacute;s derechos que resulten de la legalidad vigente<br>
-f) Formular propuestas o peticiones, bien directamente en la Asamblea General o a trav&eacute;s de los miembros a la Junta Directiva y expresar libremente sus opiniones en asuntos de inter&eacute;s general<br>
-g) Ejercitar las acciones y recursos a que haya lugar en defensa de sus derechos.<br>
-<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 22. Obligaciones de los Centros Asociados</span><br>
-<br>
-Los Centros Asociados  tienen las siguientes obligaciones:<br>
-<br>
-a) Asistir a los actos sociales y particularmente a la Asamblea General, mediante el  representante  que designen al efecto<br>
-b) Acatar los acuerdos v&aacute;lidamente adoptados por los &oacute;rganos de gobierno<br>
-c) No manifestarse p&uacute;blicamente en t&eacute;rminos que impliquen deliberado desprestigio para la Asociaci&oacute;n<br>
-d) Cumplir los dem&aacute;s deberes que resulten de la legalidad vigente, Estatutos Sociales as&iacute; como de los acuerdos adoptados por los &oacute;rganos de la Asociaci&oacute;n.<br>
-e) Pagar las cuotas y derramas que se acuerden por la Asamblea de Socios.<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 23. P&eacute;rdida de condici&oacute;n de Asociado</span><br>
-<br>
-Los Centros Asociados  perder&aacute;n la condici&oacute;n de asociados por cualquiera de las siguientes causas:<br>
-<br>
-a) Baja voluntaria mediante un preaviso a la Junta Directiva de un mes.<br>
-b) Expulsi&oacute;n acordada seg&uacute;n lo establecido en el art&iacute;culo 24 y justificada siempre por el incumplimiento grave de las obligaciones sociales establecidas en estos Estatutos.<br>
-c) Por extinci&oacute;n de la personalidad jur&iacute;dica del Centro Asociado <br>
-d) Por incumplimiento de sus obligaciones econ&oacute;micas con la Asociaci&oacute;n, haci&eacute;ndose efectiva 10 d&iacute;as antes de la celebraci&oacute;n de la Asamblea Ordinaria (cuotas ordinarias correspondientes a un a&ntilde;o, extraordinarias o impago de otras obligaciones que hubieran sido determinadas por la Asamblea o la Junta Directiva en uso de sus facultades)<br>
-<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 24 R&eacute;gimen sancionador</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span>.- Faltas<br>
-Ser&aacute;n consideradas como faltas, aquellas conductas de los socios que:<br>
-a) Atenten al prestigio y buen nombre de la Asociaci&oacute;n o de sus asociados.<br>
-b) Supongan un incumplimiento de las obligaciones establecidas en el art&iacute;culo 21 de los Estatutos Sociales<br>
-c) Supongan un incumplimiento de los acuerdos adoptados por los &oacute;rganos sociales de la Asociaci&oacute;n.<br>
-d) Impliquen una lesi&oacute;n econ&oacute;mica a la Asociaci&oacute;n o a sus miembros, y en especial, el incumplimiento de las obligaciones econ&oacute;micas con la Asociaci&oacute;n.<br>
-e) Aquellas que la Asamblea General considere como tales mediante la adopci&oacute;n del correspondiente acuerdo.<br>
-<br>
-<span class="estatutos__apartado">Dos</span>.- Sanciones<br>
-La Junta Directiva, como consecuencia de la comisi&oacute;n de alg&uacute;n acto tipificado como falta en el art&iacute;culo anterior, podr&aacute; imponer al socio las siguientes sanciones, que podr&aacute;n ser de dos tipos:<br>
-a) suspensi&oacute;n temporal de la condici&oacute;n de miembro de la Asociaci&oacute;n<br>
-b) separaci&oacute;n definitiva <br>
-<br>
-<span class="estatutos__apartado">Tres</span>.- Procedimiento sancionador<br>
-En ambos casos la Junta Directiva abrir&aacute; expediente, para lo cual nombrar&aacute; como instructor a un miembro de la propia Junta. Se dar&aacute; siempre audiencia al centro interesado. La propuesta motivada presentada por el instructor ser&aacute; aprobada por la Junta Directiva. El acuerdo de sanci&oacute;n adoptado por la Junta Directiva podr&aacute; ser recurrido ante la Asamblea General en el plazo de 30 d&iacute;as naturales, contados desde la fecha de notificaci&oacute;n del acuerdo.<br>
-<br>
-<br>
-<span class="estatutos__titulo">IV Patrimonio Social y R&eacute;gimen Presupuestario</span><br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 25. Patrimonio fundacional</span><br>
-La Asociaci&oacute;n en el momento de constituci&oacute;n carece de Fondo Social.<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 26. Patrimonio Social y Recursos Econ&oacute;micos</span><br>
-<br>
- La Asociaci&oacute;n se financiar&aacute;  mediante los siguientes recursos econ&oacute;micos:<br>
-a) Las subvenciones o donaciones que obtenga de instituciones y entidades, tango p&uacute;blicas como privadas de car&aacute;cter nacional o internacional.<br>
-b) Los ingresos provenientes de la prestaci&oacute;n de servicios<br>
-c) Cualesquiera otros que obtenga siendo compatible con sus fines<br>
-d) Las cuotas anuales y derramas posibles a cargo de los Socios, fijadas por la Asamblea General y destinadas a cubrir el Presupuesto de la Asociaci&oacute;n.<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 27 R&eacute;gimen de administraci&oacute;n, contabilidad</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span> - El r&eacute;gimen de administraci&oacute;n ser&aacute; el propio de una entidad sin &aacute;nimo de lucro, seg&uacute;n establezca la legislaci&oacute;n vigente.<br>
-<br>
-La contabilidad se realizar&aacute; siguiendo las normas del Plan General contable en vigor y los resultados del a&ntilde;o ser&aacute;n reflejados en un informe sobre las cuentas anuales, que se presentar&aacute; a la Asamblea General para su aprobaci&oacute;n.<br>
-<br>
-<span class="estatutos__apartado">Dos</span>.- El ejercicio contable comenzar&aacute; el 1 de enero y finalizar&aacute; el 31 de diciembre de cada a&ntilde;o.<br>
-<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 28 Responsabilidad de los socios</span><br>
-<br>
-Los socios de la Asociaci&oacute;n no responden personalmente de las obligaciones asumidas por la Asociaci&oacute;n. <br>
-<br>
-<span class="estatutos__titulo">V. De la Disoluci&oacute;n y Liquidaci&oacute;n</span></<br>
-<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 29. Disoluci&oacute;n</span><br>
-<br>
-Ser&aacute;n causas de disoluci&oacute;n de la Asociaci&oacute;n:<br>
-a) El acuerdo adoptado por la Asamblea General convocada al efecto, con el voto favorable de la mayor&iacute;a cualificada de los presentes y representados<br>
-b)   La absorci&oacute;n o fusi&oacute;n con otras asociaciones<br>
-c)   Otras causas establecidas en la legislaci&oacute;n vigente<br>
-<br>
-<br>
-<span class="estatutos__articulo" >Art&iacute;culo 30. Liquidaci&oacute;n</span><br>
-<br>
-<span class="estatutos__apartado">Uno</span> - Una vez disuelta la Asociaci&oacute;n se proceder&aacute; al nombramiento de la Comisi&oacute;n Liquidadora, compuesta por tres miembros de la Junta Directiva o tres de los asistentes a la Asamblea General que hubiese acordado la disoluci&oacute;n.<br>
-<br>
-<span class="estatutos__apartado">Dos</span> - Desde el momento en que sea nombrada la Comisi&oacute;n Liquidadora, cesar&aacute;n en sus funciones los miembros de la Junta Directiva.<br>
-<br>
-<span class="estatutos__apartado">Tres</span> &ndash; La Comisi&oacute;n Liquidadora efectuar&aacute; la divisi&oacute;n y adjudicaci&oacute;n del haber social, de conformidad con lo establecido en la legislaci&oacute;n. Si existiera patrimonio sobrante, constituido por todos los bienes y derechos que lo integran conforme a lo que resulte del balance de liquidaci&oacute;n, se aplicar&aacute; a los fines o entidades p&uacute;blicas o privadas sin &aacute;nimo de lucro que tenga unos fines an&aacute;logos a los de esta asociaci&oacute;n, en la forma que acuerde la Asamblea General.<br>
-<br>
-<br>
-<span class="estatutos__disposicion_adicional">Disposici&oacute;n Adicional</span><br>
-En todo cuanto no est&eacute; previsto en los presentes Estatutos se aplicar&aacute; la vigente Ley Org&aacute;nica 1/2002, de 22 de marzo, reguladora del Derecho de Asociaci&oacute;n, y las disposiciones complementarias.<br>
-<br>
-<br>
-<span class="estatutos__disposicion_adicional">Disposici&oacute;n Transitoria</span><br>
-La 1&ordf; Junta Directiva estar&aacute; formada por aquellos miembros que se elijan tras la firma del acta fundacional. Dichos cargos se ostentar&aacute;n hasta la celebraci&oacute;n de la 1&ordf; asamblea general ordinaria o extraordinaria.
+                <br>
+                <br>
+                <span class="estatutos__titulo">I. De la Asociaci&oacute;n en General</span><br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 1. Denominaci&oacute;n y &aacute;mbito territorial</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span> &ndash; Con la denominaci&oacute;n de Asociaci&oacute;n de Centros de Formaci&oacute;n Profesional  utilizando como marca &ldquo;Fpempresa&rdquo;, se constituye una entidad al amparo de la Ley Org&aacute;nica  1/2002, de 22 de marzo, reguladora del Derecho de Asociaci&oacute;n y normas complementarias, con capacidad jur&iacute;dica y plena capacidad de obrar, careciendo de &aacute;nimo de lucro.<br>
+                <span class="estatutos__apartado">Dos</span>- La presenta asociaci&oacute;n se constituye de acuerdo con uno de los objetivos espec&iacute;ficos del proyecto de innovaci&oacute;n aplicada y transferencia del conocimiento en la formaci&oacute;n profesional del sistema educativo Fpempresa, que fue seleccionado en la resoluci&oacute;n de 21 de octubre de 2011 de la Secretar&iacute;a de Estado de Educaci&oacute;n y Formaci&oacute;n Profesional y que integra a 89 centros que imparten Formaci&oacute;n Profesional en Espa&ntilde;a y que se consideran socios natos de la Asociaci&oacute;n Fpempresa por ser este uno de los objetivos fundamentales planteados en este proyecto.<br>
+                <span class="estatutos__apartado">Tres</span> &ndash; El &aacute;mbito territorial en el que va a realizar principalmente sus actividades es todo el territorio nacional.<br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 2 Fines y actividades</span><br>
+                <br>
+                La Asociaci&oacute;n tiene los siguientes fines y actividades:<br>
+                <br>
+                a) Gestionar y promocionar el portal www.fpempresa.net como lugar de encuentro entre los centros que imparten formaci&oacute;n profesional y las empresas.<br>
+                b) Desarrollar actuaciones que faciliten las relaciones entre los centros que imparten formaci&oacute;n profesional y el mundo empresarial.<br>
+                c) Apoyar a los centros que imparten formaci&oacute;n profesional en su relaci&oacute;n con su entorno empresarial.<br>
+                d) Realizar actuaciones de promoci&oacute;n de la formaci&oacute;n profesional principalmente en colaboraci&oacute;n con el mundo empresarial<br>
+                e) Fomentar la colaboraci&oacute;n entre los Centros que forman parte de la Asociaci&oacute;n<br>
+                f) Proveer servicios diversos a los Centros que forman parte de la Asociaci&oacute;n.<br>
+                g) Proveer servicios diversos al tejido social y empresarial dentro del &aacute;mbito de la formaci&oacute;n profesional.<br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 3. Duraci&oacute;n y domicilio social</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span> -  La duraci&oacute;n de la Asociaci&oacute;n es indefinida.<br>
+                <br>
+                <span class="estatutos__apartado">Dos</span> &ndash; El domicilio social se fija en:<br>
+                IES Puerta Bonita<br>
+                Calle Padre Amig&oacute;, 5<br>
+                28025 - Madrid<br>
+                <br>
+                <span class="estatutos__apartado">Tres</span> &ndash; El cambio de domicilio requerir&aacute; una modificaci&oacute;n de los estatutos y el acuerdo por la Asamblea General convocada espec&iacute;ficamente para tal objetivo.<br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 4. Naturaleza de la Asociaci&oacute;n</span><br>
+                <br>
+                La Asociaci&oacute;n tendr&aacute; personalidad jur&iacute;dica propia, independiente de los socios que la constituyen, gozando de la misma desde el momento de su constituci&oacute;n, teniendo por s&iacute; la capacidad legal precisa para el cumplimiento de sus fines, en los t&eacute;rminos definidos en los presentes Estatutos.<br>
+                <br>
+                <span class="estatutos__titulo">II. &Oacute;rganos de Gobierno</span><br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 5. &Oacute;rganos de Gobierno</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span> - El gobierno de la Asociaci&oacute;n estar&aacute; a cargo de los siguientes &oacute;rganos colegiados:<br>
+                <br>
+                a) Asamblea General<br>
+                b) Junta Directiva<br>
+                <br>
+                <span class="estatutos__apartado">Dos</span> -  Sin perjuicio de lo anterior, la Asociaci&oacute;n podr&aacute; crear todos aquellos &oacute;rganos internos que considere necesarios para el buen funcionamiento de la misma.<br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 6. La Asamblea General</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span> &ndash; La Asamblea General, integrada por todos los asociados, es el &oacute;rgano supremo de expresi&oacute;n de la voluntad de &eacute;stos. Se constituir&aacute; con los representantes que designen los centros Asociados, con los socios fundadores y con los socios de honor. Cada centro asociado contar&aacute; con un representante y por consiguiente con un voto por centro.<br>
+                <br>
+                <span class="estatutos__apartado">Dos</span> &ndash; Sus decisiones vincular&aacute;n a todos los asociados, incluso a los disidentes y ausentes.<br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 7. Facultades de la Asamblea General</span><br>
+                <br>
+                Todos los asuntos propios de la Asociaci&oacute;n pueden ser debatidos en la Asamblea General, cuyo acuerdo ser&aacute; preceptivo en todo caso para lo siguiente:<br>
+                <br>
+                a) El examen y la aprobaci&oacute;n de la Memoria de actividades y de las cuentas anuales del ejercicio anterior<br>
+                b) El examen y la aprobaci&oacute;n del Plan de gesti&oacute;n y del presupuesto del ejercicio <br>
+                c) La aprobaci&oacute;n y modificaci&oacute;n de Estatutos<br>
+                d) La disoluci&oacute;n de la asociaci&oacute;n<br>
+                e) La elecci&oacute;n y el cese del presidente, del vicepresidente, del secretario, del tesorero y de los dem&aacute;s miembros de la Junta Directiva<br>
+                f) Los actos de federaci&oacute;n y confederaci&oacute;n con otras asociaciones o el abandono de alguna de ellas<br>
+                g) La aprobaci&oacute;n de la disposici&oacute;n o enajenaci&oacute;n de bienes inmuebles<br>
+                h) La adopci&oacute;n del acuerdo de separaci&oacute;n definitiva de las Centros Asociados.<br>
+                i) La fusi&oacute;n de la asociaci&oacute;n con otra asociaci&oacute;n o asociaciones afines<br>
+                j) Resolver los recursos contra las resoluciones de la Junta Directiva en materia de baja y admisi&oacute;n de socios.<br>
+                k) Cualquier otro asunto sometido a su consideraci&oacute;n<br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 8. Convocatoria de la Asamblea</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span>- La Asamblea General Ordinaria ser&aacute; convocada por la Junta Directiva una vez al a&ntilde;o, dentro de los seis primeros meses, para examinar y aprobar si procede la Memoria de actividades y las cuentas del ejercicio anterior, as&iacute; como el Plan de gesti&oacute;n y el presupuesto del ejercicio.<br>
+                <br>
+                No obstante, podr&aacute;n incluirse en el Orden del d&iacute;a de la Asamblea General Ordinaria toda clase de asuntos relacionados con el funcionamiento y las actividades de la Asociaci&oacute;n.<br>
+                <br>
+                <span class="estatutos__apartado">Dos</span>- La Asamblea General Extraordinaria podr&aacute; ser convocada por la Junta Directiva  de forma excepcional  cuantas veces lo pidan las dos terceras partes de los socios de derecho, indicando los motivos y fines de la misma, en todo caso para conocer y decidir sobre las siguientes materias:<br>
+                a) Modificaci&oacute;n estatutaria<br>
+                b) Disoluci&oacute;n de la Asociaci&oacute;n<br>
+                <br>
+                <span class="estatutos__apartado">Tres</span>- La convocatoria de la Asamblea General Ordinaria o Extraordinaria se har&aacute; por escrito con una antelaci&oacute;n de al menos quince  d&iacute;as. La convocatoria expresar&aacute; fecha, hora, lugar y Orden del D&iacute;a, as&iacute; como la fecha, hora y lugar de reuni&oacute;n en segunda convocatoria.<br>
+                <br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 9. Funcionamiento de la Asamblea General</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span> &ndash; La Asamblea General se celebrar&aacute; en el lugar que determine la Junta Directiva en la convocatoria de la misma.<br>
+                <br>
+                <span class="estatutos__apartado">Dos</span> &ndash; Para que la Asamblea General Ordinaria o Extraordinaria puedan tomar acuerdos, ser&aacute; necesaria la asistencia, como m&iacute;nimo en primera convocatoria, de la mitad m&aacute;s uno de los asociados. Si no se logra este n&uacute;mero se celebrar&aacute; en segunda convocatoria, y podr&aacute;n adoptarse acuerdos, cualquiera que sea el n&uacute;mero de asistentes, salvo en aquellas materias en que sea necesaria una mayor&iacute;a cualificada.<br>
+                <br>
+                <span class="estatutos__apartado">Tres</span> &ndash; La Asamblea General ser&aacute; presidida por el Presidente de la Asociaci&oacute;n y, en su defecto, por el Vicepresidente, actuando de Secretario el que lo sea de la Junta Directiva.<br>
+                <br>
+                En defecto de los anteriores, ser&aacute; presidida por la persona que designe la Asamblea General al efecto. <br>
+                <br>
+                El Secretario dirigir&aacute; la discusi&oacute;n y cuidar&aacute; bajo su responsabilidad que no se produzcan desviaciones o se sometan a la decisi&oacute;n de la Asamblea General cuestiones no incluidas en el Orden del d&iacute;a.<br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 10. Mayor&iacute;a</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span>- Los acuerdos de la Asamblea General ser&aacute;n adoptados por mitad m&aacute;s uno de los votos presentes y representados, es decir, por mayor&iacute;a absoluta, salvo que la legislaci&oacute;n vigente o estos Estatutos establezcan una mayor&iacute;a cualificada.<br>
+                <br>
+                <span class="estatutos__apartado">Dos</span>- Ser&aacute; necesaria la mayor&iacute;a cualificada de dos tercios de los votos presentes y representados para la adopci&oacute;n de los siguientes acuerdos:<br>
+                a) La aprobaci&oacute;n y modificaci&oacute;n de estatutos.<br>
+                b) La disoluci&oacute;n de la asociaci&oacute;n.<br>
+                c) La elecci&oacute;n y cese anticipado del presidente y de los dem&aacute;s miembros de la Junta Directiva, as&iacute; como su supervisi&oacute;n y control.<br>
+                d) Los actos de federaci&oacute;n y confederaci&oacute;n con otras asociaciones o el abandono de alguna de ellas<br>
+                e) La aprobaci&oacute;n de la disposici&oacute;n o enajenaci&oacute;n de bienes inmuebles<br>
+                f) La adopci&oacute;n del acuerdo de separaci&oacute;n definitiva de los socios.<br>
+                g) La fusi&oacute;n de la asociaci&oacute;n con otras asociaci&oacute;n o asociaciones afines<br>
+                h) Otros supuestos que pudiera exigir la legislaci&oacute;n vigente<br>
+                <br>
+                <span class="estatutos__apartado">Tres</span>- El Secretario levantar&aacute; acta de cada reuni&oacute;n en la que har&aacute; constar la fecha de la reuni&oacute;n, los asistentes a la misma, los asuntos tratados y los acuerdos adoptados.<br>
+                <br>
+                El acta podr&aacute; ser aprobada por la propia Asamblea General a continuaci&oacute;n de haberse celebrado esta, o en su defecto, en la sesi&oacute;n siguiente.<br>
+                <br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 11. La Junta Directiva</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span> &ndash; La Junta Directiva es el &oacute;rgano de gobierno al que corresponde la direcci&oacute;n y gesti&oacute;n ordinaria de la Asociaci&oacute;n, de acuerdo con las directrices de la Asamblea General y bajo su supervisi&oacute;n y control. Tiene para ello las facultades que se especifican a continuaci&oacute;n:<br>
+                <br>
+                a) Representar a la Asociaci&oacute;n ante todo tipo de organismos p&uacute;blicos y privados<br>
+                b) Decidir la celebraci&oacute;n de reuniones de la Asamblea General, confeccionando el Orden del d&iacute;a de las reuniones de la Asamblea y ejecutar sus acuerdos<br>
+                c) Presentar anualmente a la Asamblea General Ordinaria la Memoria de actividades, las Cuentas del ejercicio, el Plan de Gesti&oacute;n y el presupuesto para su aprobaci&oacute;n<br>
+                d) Contratar al personal que en su caso fuera necesario para el eficaz cumplimiento de los fines y actividades de la Asociaci&oacute;n<br>
+                e) Realizar las gestiones necesarias para el cumplimiento de los fines y actividades de la Asociaci&oacute;n<br>
+                f) Ejecutar todas aquellas cuestiones que le delegue la Asamblea General<br>
+                g) Adoptar acuerdos relacionados con la interposici&oacute;n de toda clase de recursos y acciones ante cualquier organismo o jurisdicci&oacute;n, y otorgar los poderes necesarios para ello.<br>
+                h) Ejercer la potestad disciplinaria.<br>
+                <br>
+                <span class="estatutos__apartado">Dos</span> &ndash;Los miembros de la Junta Directiva ser&aacute;n elegidos por la Asamblea General y estar&aacute; formada por un m&aacute;ximo de quince  personas. La Junta Directiva estar&aacute; formada por el Presidente, Vicepresidente, Tesorero, Secretario y vocales.<br>
+                <br>
+                <br>
+                <span class="estatutos__apartado">Tres</span> - Los cargos de Presidente, Vicepresidente, Tesorero, Secretario y vocales  tendr&aacute;n una duraci&oacute;n de 3 a&ntilde;os, pudiendo producirse la relecci&oacute;n. Los miembros de la Junta Directiva que hubieran agotado el plazo para el cual fueron elegidos continuar&aacute;n ostentando sus cargos hasta el momento en que se produzca la aceptaci&oacute;n de los que les sustituyan.<br>
+                <br>
+                <span class="estatutos__apartado">Cuatro</span> - Las causas de cese de los cargos ser&aacute;n las siguientes:<br>
+                a) renuncia voluntaria comunicada por escrito a la Junta Directiva<br>
+                b) el incumplimiento grave de sus responsabilidades<br>
+                c) la actuaci&oacute;n dolosa contraria a los intereses de la asociaci&oacute;n o a los fines y actividades de la misma<br>
+                <br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 12. Desempe&ntilde;o gratuito de los cargos</span><br>
+                <br>
+                Los miembros de la Junta Directiva desempe&ntilde;ar&aacute;n sus cargos gratuitamente. No obstante, la Asamblea General podr&aacute; establecer el abono de dietas y gastos justificables para los miembros de los &oacute;rganos de gobierno.<br>
+                Esta gratuidad no se extiende a las relaciones de tipo laboral o civil que puedan establecerse con determinadas personas para la prestaci&oacute;n de servicios profesionales o en condiciones de especial dedicaci&oacute;n.<br>
+                <br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 13. Funcionamiento de la Junta Directiva</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span>.-La Junta Directiva se reunir&aacute;, como m&iacute;nimo, una vez al trimestre, o en convocatoria extraordinaria cuando lo estime conveniente el Presidente o un tercio de los miembros de la misma.<br>
+                <br>
+                <span class="estatutos__apartado">Dos</span>.- Las reuniones de la Junta Directiva las convocar&aacute; el Presidente por escrito con una antelaci&oacute;n m&iacute;nima de siete d&iacute;as naturales, y en casos extraordinarios con 48 horas de antelaci&oacute;n. La Junta Directiva quedar&aacute; v&aacute;lidamente constituida cuando asistan a la reuni&oacute;n la mitad m&aacute;s uno de los miembros. La asistencia ser&aacute; personal, no cabiendo la representaci&oacute;n, y los acuerdos se adoptar&aacute;n por mayor&iacute;a simple de los miembros presentes. El Presidente dirigir&aacute; las deliberaciones y su voto de calidad dirimir&aacute; en caso de empate.<br>
+                <br>
+                <span class="estatutos__apartado">Tres</span>.- Podr&aacute; existir una Comisi&oacute;n Permanente con car&aacute;cter de Delegada de la Junta Directiva y con la funci&oacute;n de ejercer coordinadamente el Gobierno de la Asociaci&oacute;n.<br>
+                <br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 14. El Presidente</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span> &ndash; El Presidente ostenta la representaci&oacute;n legal de la Asociaci&oacute;n y la Presidencia de los &oacute;rganos de gobierno.<br>
+                <br>
+                <span class="estatutos__apartado">Dos</span> &ndash; El Presidente, en el ejercicio de sus funciones, ejecutar&aacute; los acuerdos adoptados por la Junta Directiva y la Asamblea General.<br>
+                <br>
+                <span class="estatutos__apartado">Tres</span> &ndash; Corresponder&aacute;n al Presidente cuantas facultades no est&eacute;n expresamente reservadas a la Junta Directiva o a la Asamblea General y, especialmente, las siguientes:<br>
+                <br>
+                a) Convocar, presidir y levantar las sesiones que celebre la Junta Directiva y la Asamblea General<br>
+                b) Proponer el Plan de Gesti&oacute;n de la Asociaci&oacute;n a la Junta Directiva, impulsando y dirigiendo sus tareas<br>
+                c) Resolver las cuestiones que puedan surgir con car&aacute;cter urgente, dando conocimiento de ello a la Junta Directiva en la primera sesi&oacute;n que se celebre.<br>
+                <br>
+                <span class="estatutos__apartado">Cuatro</span> &ndash; El cargo tendr&aacute; una duraci&oacute;n de 3 a&ntilde;os, pudiendo producirse la relecci&oacute;n. Las causas de cese ser&aacute;n las previstas en el Art&iacute;culo 11 apartado Cuatro.<br>
+                <br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 15. El Vicepresidente</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span> - El Vicepresidente asumir&aacute; las funciones de asistir al Presidente y sustituirle en caso de imposibilidad temporal de ejercicio a su cargo. Asimismo, le corresponder&aacute;n cuantas facultades delegue en &eacute;l, expresamente, el Presidente.<br>
+                <br>
+                <span class="estatutos__apartado">Dos</span> &ndash;  El cargo tendr&aacute; una duraci&oacute;n de 3 a&ntilde;os, pudiendo producirse la relecci&oacute;n. Las causas de cese ser&aacute;n las previstas en el Art&iacute;culo 11 apartado Cuatro.<br>
+                <br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 16. El Secretario</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span> - El Secretario se encargar&aacute; de recibir y tramitar las solicitudes de ingreso, llevar el Libro-Registro de Socios, y atender a la custodia y redacci&oacute;n del libro de Actas.<br>
+                <br>
+                Igualmente, velar&aacute; por el cumplimiento de las disposiciones legales vigentes en materia de Asociaciones, custodiando la documentaci&oacute;n oficial de la Entidad, certificando el contenido de los libros y archivos sociales, y haciendo que se cursen a la autoridad competente las comunicaciones preceptivas sobre designaci&oacute;n de Juntas Directivas y cambios de domicilio social.<br>
+                <br>
+                <span class="estatutos__apartado">Dos</span> &ndash; El cargo tendr&aacute; una duraci&oacute;n de 3 a&ntilde;os, pudiendo producirse la relecci&oacute;n. Las causas de cese ser&aacute;n las previstas en el Art&iacute;culo 11 apartado Cuatro.<br>
+                <br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 17. El Tesorero</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span> - El Tesorero dar&aacute; a conocer los ingresos y pagos efectuados, formalizar&aacute; el presupuesto anual, as&iacute; como el estado de cuentas del a&ntilde;o anterior que deben ser presentados a la Junta Directiva para que &eacute;sta, a su vez, los someta a la aprobaci&oacute;n de la Asamblea General.<br>
+                <br>
+                <span class="estatutos__apartado">Dos</span> &ndash; El cargo tendr&aacute; una duraci&oacute;n de 3 a&ntilde;os, pudiendo producirse la relecci&oacute;n. Las causas de cese ser&aacute;n las previstas en el Art&iacute;culo 11 apartado Cuatro.<br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 18.  Los Vocales.</span><br>
+                <br>
+                Los Vocales tendr&aacute;n las obligaciones propias de su cargo como miembro de la Junta Directiva y as&iacute; como las que nazcan de las delegaciones o comisiones de trabajo que la propia Junta les encomiende. <br>
+                <br>
+                <span class="estatutos__titulo">III. De los Asociados</span><br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 19. Clases de asociados</span><br>
+                <br>
+                La Asociaci&oacute;n la integrar&aacute;n tres clases de asociados:<br>
+                a) Socios fundadores que ser&aacute;n aquellas personas f&iacute;sicas o jur&iacute;dicas que participen en el acto de constituci&oacute;n de la asociaci&oacute;n.<br>
+                b) Socios de  n&uacute;mero, que ser&aacute;n los centros que imparten formaci&oacute;n profesional  que se encuentran inscritos en el Registro Estatal de Centros Docentes no Universitarios del Ministerio de Educaci&oacute;n, Cultura y Deporte y que ingresen despu&eacute;s de la constituci&oacute;n de la asociaci&oacute;n.<br>
+                c) Socios de honor , aquellas personas f&iacute;sicas   que por su prestigio o por haber contribuido de modo relevante al desarrollo de la Formaci&oacute;n Profesional, sean invitados a formar parte de la Asociaci&oacute;n<br>
+                <br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 20. Requisitos para la admisi&oacute;n</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span>.- Los centros que impartan Formaci&oacute;n  Profesional que deseen formar parte de la Asociaci&oacute;n deber&aacute;n  solicitar la admisi&oacute;n mediante escrito dirigido al Presidente de la Junta Directiva. En el escrito se har&aacute; constar  el compromiso de aceptar y cumplir los estatutos as&iacute; como se designar&aacute; un representante del Centro en la Asociaci&oacute;n. <br>
+                <br>
+                <span class="estatutos__apartado">Dos</span>.- Las decisiones sobre la admisi&oacute;n de Centros Asociados  corresponden a la Junta Directiva, que una vez examinado el cumplimiento de los requisitos establecidos en el art&iacute;culo anterior, adoptar&aacute; el acuerdo correspondiente por mayor&iacute;a  de sus miembros.<br>
+                <br>
+                <span class="estatutos__apartado">Tres</span>.- En el supuesto de denegaci&oacute;n, el solicitante podr&aacute; recurrir ante la Asamblea en el plazo de quince d&iacute;as desde la fecha de comunicaci&oacute;n de la resoluci&oacute;n denegatoria. El recurso ser&aacute; resuelto en la primera Asamblea que se celebre, siendo su resoluci&oacute;n definitiva.<br>
+                <br>
+                <span class="estatutos__apartado">Cuatro</span>- Los socios de honor ser&aacute;n invitados a formar parte de la Asociaci&oacute;n  por la Junta Directiva.<br>
+                <br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 21. Derechos de los Centros Asociados</span><br>
+                <br>
+                Los centros Asociados tienen derecho a:<br>
+                <br>
+                a) Elegir y ser elegidos para los cargos de la Asociaci&oacute;n<br>
+                b) Participar con voz y voto en la adopci&oacute;n de todos los acuerdos de la Asamblea General, mediante los representantes nombrados al efecto<br>
+                c) Aprobar, en su caso, en la Asamblea la memoria de actividades, cuentas del ejercicio anterior y el Plan de Gesti&oacute;n y Presupuesto del ejercicio<br>
+                d) Solicitar y recibir informaci&oacute;n sobre cualquier aspecto relativo a la marcha de la Asociaci&oacute;n<br>
+                e) Los dem&aacute;s derechos que resulten de la legalidad vigente<br>
+                f) Formular propuestas o peticiones, bien directamente en la Asamblea General o a trav&eacute;s de los miembros a la Junta Directiva y expresar libremente sus opiniones en asuntos de inter&eacute;s general<br>
+                g) Ejercitar las acciones y recursos a que haya lugar en defensa de sus derechos.<br>
+                <br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 22. Obligaciones de los Centros Asociados</span><br>
+                <br>
+                Los Centros Asociados  tienen las siguientes obligaciones:<br>
+                <br>
+                a) Asistir a los actos sociales y particularmente a la Asamblea General, mediante el  representante  que designen al efecto<br>
+                b) Acatar los acuerdos v&aacute;lidamente adoptados por los &oacute;rganos de gobierno<br>
+                c) No manifestarse p&uacute;blicamente en t&eacute;rminos que impliquen deliberado desprestigio para la Asociaci&oacute;n<br>
+                d) Cumplir los dem&aacute;s deberes que resulten de la legalidad vigente, Estatutos Sociales as&iacute; como de los acuerdos adoptados por los &oacute;rganos de la Asociaci&oacute;n.<br>
+                e) Pagar las cuotas y derramas que se acuerden por la Asamblea de Socios.<br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 23. P&eacute;rdida de condici&oacute;n de Asociado</span><br>
+                <br>
+                Los Centros Asociados  perder&aacute;n la condici&oacute;n de asociados por cualquiera de las siguientes causas:<br>
+                <br>
+                a) Baja voluntaria mediante un preaviso a la Junta Directiva de un mes.<br>
+                b) Expulsi&oacute;n acordada seg&uacute;n lo establecido en el art&iacute;culo 24 y justificada siempre por el incumplimiento grave de las obligaciones sociales establecidas en estos Estatutos.<br>
+                c) Por extinci&oacute;n de la personalidad jur&iacute;dica del Centro Asociado <br>
+                d) Por incumplimiento de sus obligaciones econ&oacute;micas con la Asociaci&oacute;n, haci&eacute;ndose efectiva 10 d&iacute;as antes de la celebraci&oacute;n de la Asamblea Ordinaria (cuotas ordinarias correspondientes a un a&ntilde;o, extraordinarias o impago de otras obligaciones que hubieran sido determinadas por la Asamblea o la Junta Directiva en uso de sus facultades)<br>
+                <br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 24 R&eacute;gimen sancionador</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span>.- Faltas<br>
+                Ser&aacute;n consideradas como faltas, aquellas conductas de los socios que:<br>
+                a) Atenten al prestigio y buen nombre de la Asociaci&oacute;n o de sus asociados.<br>
+                b) Supongan un incumplimiento de las obligaciones establecidas en el art&iacute;culo 21 de los Estatutos Sociales<br>
+                c) Supongan un incumplimiento de los acuerdos adoptados por los &oacute;rganos sociales de la Asociaci&oacute;n.<br>
+                d) Impliquen una lesi&oacute;n econ&oacute;mica a la Asociaci&oacute;n o a sus miembros, y en especial, el incumplimiento de las obligaciones econ&oacute;micas con la Asociaci&oacute;n.<br>
+                e) Aquellas que la Asamblea General considere como tales mediante la adopci&oacute;n del correspondiente acuerdo.<br>
+                <br>
+                <span class="estatutos__apartado">Dos</span>.- Sanciones<br>
+                La Junta Directiva, como consecuencia de la comisi&oacute;n de alg&uacute;n acto tipificado como falta en el art&iacute;culo anterior, podr&aacute; imponer al socio las siguientes sanciones, que podr&aacute;n ser de dos tipos:<br>
+                a) suspensi&oacute;n temporal de la condici&oacute;n de miembro de la Asociaci&oacute;n<br>
+                b) separaci&oacute;n definitiva <br>
+                <br>
+                <span class="estatutos__apartado">Tres</span>.- Procedimiento sancionador<br>
+                En ambos casos la Junta Directiva abrir&aacute; expediente, para lo cual nombrar&aacute; como instructor a un miembro de la propia Junta. Se dar&aacute; siempre audiencia al centro interesado. La propuesta motivada presentada por el instructor ser&aacute; aprobada por la Junta Directiva. El acuerdo de sanci&oacute;n adoptado por la Junta Directiva podr&aacute; ser recurrido ante la Asamblea General en el plazo de 30 d&iacute;as naturales, contados desde la fecha de notificaci&oacute;n del acuerdo.<br>
+                <br>
+                <br>
+                <span class="estatutos__titulo">IV Patrimonio Social y R&eacute;gimen Presupuestario</span><br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 25. Patrimonio fundacional</span><br>
+                La Asociaci&oacute;n en el momento de constituci&oacute;n carece de Fondo Social.<br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 26. Patrimonio Social y Recursos Econ&oacute;micos</span><br>
+                <br>
+                La Asociaci&oacute;n se financiar&aacute;  mediante los siguientes recursos econ&oacute;micos:<br>
+                a) Las subvenciones o donaciones que obtenga de instituciones y entidades, tango p&uacute;blicas como privadas de car&aacute;cter nacional o internacional.<br>
+                b) Los ingresos provenientes de la prestaci&oacute;n de servicios<br>
+                c) Cualesquiera otros que obtenga siendo compatible con sus fines<br>
+                d) Las cuotas anuales y derramas posibles a cargo de los Socios, fijadas por la Asamblea General y destinadas a cubrir el Presupuesto de la Asociaci&oacute;n.<br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 27 R&eacute;gimen de administraci&oacute;n, contabilidad</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span> - El r&eacute;gimen de administraci&oacute;n ser&aacute; el propio de una entidad sin &aacute;nimo de lucro, seg&uacute;n establezca la legislaci&oacute;n vigente.<br>
+                <br>
+                La contabilidad se realizar&aacute; siguiendo las normas del Plan General contable en vigor y los resultados del a&ntilde;o ser&aacute;n reflejados en un informe sobre las cuentas anuales, que se presentar&aacute; a la Asamblea General para su aprobaci&oacute;n.<br>
+                <br>
+                <span class="estatutos__apartado">Dos</span>.- El ejercicio contable comenzar&aacute; el 1 de enero y finalizar&aacute; el 31 de diciembre de cada a&ntilde;o.<br>
+                <br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 28 Responsabilidad de los socios</span><br>
+                <br>
+                Los socios de la Asociaci&oacute;n no responden personalmente de las obligaciones asumidas por la Asociaci&oacute;n. <br>
+                <br>
+                <span class="estatutos__titulo">V. De la Disoluci&oacute;n y Liquidaci&oacute;n</span></<br>
+                <br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 29. Disoluci&oacute;n</span><br>
+                <br>
+                Ser&aacute;n causas de disoluci&oacute;n de la Asociaci&oacute;n:<br>
+                a) El acuerdo adoptado por la Asamblea General convocada al efecto, con el voto favorable de la mayor&iacute;a cualificada de los presentes y representados<br>
+                b)   La absorci&oacute;n o fusi&oacute;n con otras asociaciones<br>
+                c)   Otras causas establecidas en la legislaci&oacute;n vigente<br>
+                <br>
+                <br>
+                <span class="estatutos__articulo" >Art&iacute;culo 30. Liquidaci&oacute;n</span><br>
+                <br>
+                <span class="estatutos__apartado">Uno</span> - Una vez disuelta la Asociaci&oacute;n se proceder&aacute; al nombramiento de la Comisi&oacute;n Liquidadora, compuesta por tres miembros de la Junta Directiva o tres de los asistentes a la Asamblea General que hubiese acordado la disoluci&oacute;n.<br>
+                <br>
+                <span class="estatutos__apartado">Dos</span> - Desde el momento en que sea nombrada la Comisi&oacute;n Liquidadora, cesar&aacute;n en sus funciones los miembros de la Junta Directiva.<br>
+                <br>
+                <span class="estatutos__apartado">Tres</span> &ndash; La Comisi&oacute;n Liquidadora efectuar&aacute; la divisi&oacute;n y adjudicaci&oacute;n del haber social, de conformidad con lo establecido en la legislaci&oacute;n. Si existiera patrimonio sobrante, constituido por todos los bienes y derechos que lo integran conforme a lo que resulte del balance de liquidaci&oacute;n, se aplicar&aacute; a los fines o entidades p&uacute;blicas o privadas sin &aacute;nimo de lucro que tenga unos fines an&aacute;logos a los de esta asociaci&oacute;n, en la forma que acuerde la Asamblea General.<br>
+                <br>
+                <br>
+                <span class="estatutos__disposicion_adicional">Disposici&oacute;n Adicional</span><br>
+                En todo cuanto no est&eacute; previsto en los presentes Estatutos se aplicar&aacute; la vigente Ley Org&aacute;nica 1/2002, de 22 de marzo, reguladora del Derecho de Asociaci&oacute;n, y las disposiciones complementarias.<br>
+                <br>
+                <br>
+                <span class="estatutos__disposicion_adicional">Disposici&oacute;n Transitoria</span><br>
+                La 1&ordf; Junta Directiva estar&aacute; formada por aquellos miembros que se elijan tras la firma del acta fundacional. Dichos cargos se ostentar&aacute;n hasta la celebraci&oacute;n de la 1&ordf; asamblea general ordinaria o extraordinaria.
             </div>
         </div>
     </div>  
 </div>
 
-        
-        
-        
-        
-        
-        
-        
-        
-        <footer  class="container-fluid section__container  section--background-color-dark section--color-light-high">
-            <p class="section__text  section--color-light-high section__text--size-low"  >
-                <a href="https://twitter.com/fp_empresa" target="_blank" class="social__icon"><i class="fa fa-twitter-square"></i></a>&nbsp;&nbsp;
-                <a href="https://www.facebook.com/asociacion.fpempresa" target="_blank" class="social__icon"><i class="fa fa-facebook-square"></i></a>&nbsp;&nbsp;
-                <a href="https://plus.google.com/+FPempresaNet/posts" target="_blank" class="social__icon"><i class="fa fa-google-plus-square"></i></a>
-                <br>
-                <br>
-                &copy; 2015 Asociaci&oacute;n de centros de FP (AC-FP)
-                <br>
-                Desarrollo por: <a href="https://github.com/fpempresa">Lorenzo Gonz&aacute;lez <i class="fa fa-github-alt" style=" vertical-align: middle;"></i></a>
-            </p> 
-        </footer>
 
 
-        <script type="text/javascript" src="./lib/jquery/js/jquery.js"></script>
-        <script type="text/javascript" src="./lib/bootstrap/js/bootstrap.js"></script>
 
-        <script type='text/javascript' src='./lib/angularjs/js/angular.js'></script>      
-        <script type="text/javascript" src="./lib/easing/js/jquery.easing.min.js"></script>
-
-        <script type="text/javascript" src="index.js"></script>  
-        <script type="text/javascript" src="./common/presentation/directive/clickbuttononclick.js"></script>
-        <script type="text/javascript" src="./common/presentation/service/animatescroll.js"></script>        
-    </body>
-</html>
