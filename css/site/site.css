@@ -1,3 +1,16 @@
+.estatutos__titulo {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.estatutos__articulo {
+  font-weight: bold;
+}
+.estatutos__disposicion_adicional {
+  font-weight: bold;
+}
+.estatutos__apartado {
+  font-weight: bold;
+}
 .generic-block--color-dark {
   color: #005594;
 }
@@ -159,6 +172,17 @@
     -moz-transform: scale(1);
     transform: scale(1);
   }
+}
+.plan-estrategico__titulo {
+  font-weight: bold;
+}
+.plan-estrategico__linea {
+  text-decoration: underline;
+}
+.plan-estrategico__cabecera {
+  background-color: #005594;
+  font-weight: bold;
+  color: #FFFFFF;
 }
 .navbar-header {
   height: 80px;
