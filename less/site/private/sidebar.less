@@ -25,11 +25,11 @@
 }
 .sidebar-menu .sidebar-brand {
     background-color: @sidebar-background;
-    line-height: 50px;
+    line-height: @sidebar-padding*4;
     display: block;
     text-align: center;
     font-size: @sidebar-font-size;
-    border-bottom: 1px solid @sidebar-border-color;  
+    border-bottom: 1px solid @sidebar-border-color;   
 }
 .sidebar-menu .sidebar-toggle-btn {
     display: none;
@@ -40,7 +40,6 @@
     padding-bottom: 0px;
     padding-top: 0px;
     margin: 0px;
-    line-height: 35px;
 }
 
 .sidebar-menu li {
@@ -49,7 +48,6 @@
     padding-bottom: @sidebar-padding;
     padding-top: @sidebar-padding;
     margin: 0px;
-    line-height: 35px;
     width: 100%;
 }
 
@@ -69,7 +67,6 @@
 .sidebar-menu li .sidebar-sub-menu li {
     background-color: @sidebar-sub-background;
     border: none;
-    line-height: 28px;
     border-bottom: 1px solid @sidebar-border-color;
     margin-left: 0px;
 }
